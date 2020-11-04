@@ -258,7 +258,6 @@ label > span::after{
 }
 
 .my_form > button:hover{
-
     font-size: 40px;
     transition: all .1s ease-in;
 }
