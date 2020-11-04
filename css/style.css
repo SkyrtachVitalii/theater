@@ -161,7 +161,7 @@ background-image: url('https://www.flaticon.com/svg/static/icons/svg/28/28814.sv
 
 /* ------------DZ_7------------ */
 .dz{
-    width: 100%;
+
     display: block;
     padding: 50px;
 }
@@ -211,7 +211,20 @@ div > input[type=checkbox] {
     padding: 10px; 
 }
 
+.my_form-item:hover{
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+    transition: all .1s ease-in;
+    background-color: #625e77;
+}
 
+label > span::before{
+    content: "(";
+}
+
+label > span::after{
+    content: ")";
+}
 
 .my_form > button{
     width: 50%;
@@ -222,4 +235,17 @@ div > input[type=checkbox] {
     margin: 10px auto;
     background-color: #4a4f56;
     border: none;
+}
+
+.my_form > button:active{
+    background-color: #918a8a;
+    color: #cecfd2;
+}
+
+.my_form > button:hover{
+    width: 55%;
+    height: 65px;
+    font-size: 25px;
+    transition: all .1s ease-in;
+    margin: 10px auto;
 }
