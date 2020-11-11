@@ -3,14 +3,19 @@
     padding: 0;
     color: #ffffff;
     font-family: sans-serif;
+    box-sizing: border-box;
 }
 
 body{
     background-color: #333333; 
 }
 
+img{
+    max-width: 100%;
+}
+
 h1{
-    font-size: 64px;
+    font-size: 50px;
     line-height: 1.35;
     text-transform: uppercase;
 }
@@ -36,11 +41,65 @@ a{
     line-height: 1.4;
 }
 
+.container{
+    width: 100%;
+    max-width: 1130px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
 
+header{
+    padding-top: 50px;
+    height: 100vh;
+    background-image: url('../images/header_bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.top-menu__list{
+    list-style: none;
+    margin-bottom: 50px;
+}
+
+.top-menu__item{
+    display: inline-block;
+    margin-right: 63px;
+}
+
+.top-menu__item a{
+    line-height: 25;
+}
 
 .top-menu_number{
     font-size: 16px;
     line-height: 1.6;
+}
+
+.header-content{
+    font-size: 0;
+
+}
+
+.header-info{
+    display: inline-block;
+    width: 50%;
+    vertical-align: middle;
+}
+
+.header-info__button{
+    background: gold;
+    color: #fff;
+    vertical-align: middle;
+    font-style: 18px;
+    line-height: 26;
+    padding: 12px 20px;
+    line-height: 26;
+    text-align: center;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-top: 50px;
+    font-weight: bold;
 }
 
 .underline{
@@ -260,4 +319,104 @@ label > span::after{
 .my_form > button:hover{
     font-size: 40px;
     transition: all .1s ease-in;
+}
+
+.dz8{
+    display: block;
+    width: 60vw;
+    border: 10px solid #2B81AC;
+    margin: 5vh auto;
+    padding: 10px 60px 30px;
+    background-color: #3399CC;
+}
+
+.dz8-title{
+    font-size: 24px;
+    padding: 5px 0;
+}
+
+.dz8-list{
+    list-style: none;
+    font-size: 0px;
+    border: 2px solid #eee;
+}
+
+.dz8-list-item{
+    display: inline-block;
+    font-size: 16px;
+    text-align: center;
+    padding: 20px 10px;
+    border: 2px solid #eee;
+}
+
+.dz8-list-item:hover{
+    opacity: 50%;
+    transition: all .2s ease-in;
+    cursor: pointer;
+}
+
+.dz8-list-item_degree{
+    display: block;
+    padding: 5px;
+}
+
+.item-25{
+    width: 25%;
+}
+
+.item-50{
+    width: 50%;
+}
+
+.item-100{
+    width: 100%;
+}
+
+.blue{
+    background-color: #3399CC;
+}
+
+.cyan{
+    background-color: #33CCCC;
+}
+
+.violete{
+    background-color: #996699;
+}
+
+.red{
+    background-color: #C24747;
+}
+
+.orange{
+    background-color: #E2674A;
+}
+
+.yellow{
+    background-color: #FFCC66;
+}
+
+.white-green{
+    background-color: #99CC99;
+}
+
+.grey-green{
+    background-color: #669999;
+}
+
+.pink{
+    background-color: #CC6699;
+}
+
+.green{
+    background-color: #339966;
+}
+
+.white-dark-blue{
+    background-color: #666699;
+}
+
+.dz8-p{
+    font-size: 18px;
+    padding: 10px 0;
 }
